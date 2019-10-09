@@ -1,9 +1,15 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   font-family: 'Ubuntu Condensed', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/starfield.png");
+
+}
+
+.btn {
+  color: #b4fff4;
+  border-color: #b4fff4;
 }

@@ -1,15 +1,26 @@
 html {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
   text-align: center;
 }
 
 body {
   background-image: url("../images/starfield.png");
-
+    vertical-align: middle;
 }
 
-.btn {
+h1, p {
+  text-shadow: 0 0 15px rgba(255, 255, 255, .7);
+}
+
+.btn-ghost {
   color: #b4fff4;
+  border-color: #b4fff4;
+  border-radius: 7px;
+}
+
+.btn-ghost:hover {
+  color: #b4fff4;
+  background-color: rgba(180, 255, 244, .2);
   border-color: #b4fff4;
 }

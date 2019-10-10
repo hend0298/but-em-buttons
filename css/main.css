@@ -38,7 +38,7 @@ h1, p {
 .btn-rocket:hover,
 .btn-rocket:focus,
 .btn-rocket:active {
- top: 40%;
+  top: 40%;
 }
 
 .btn-rocket {
